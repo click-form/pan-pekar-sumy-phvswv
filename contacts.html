@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — Пекарня-кондитерська «Пан Пекар»</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🥐</span>
+                <span class="logo-text">Пан Пекар</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="nav-link" data-i18n="nav_services">Асортимент</a></li>
+                    <li><a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="nav-link active" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title" data-i18n="contacts_page_title">Контакти</h1>
+                <p class="page-subtitle" data-i18n="contacts_page_subtitle">Завітайте до наших затишних локацій у місті Суми</p>
+            </div>
+        </section>
+
+        <section class="contacts-section section-padding">
+            <div class="container">
+                <div class="contacts-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3 data-i18n="loc_1_title">Локація 1</h3>
+                        <p><strong>Покровська площа, 13</strong><br>Суми, Сумська область, Україна</p>
+                        <p class="contact-hours">⏰ <span data-i18n="hours_val">Щодня з 08:00 до 20:00</span></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3 data-i18n="loc_2_title">Локація 2</h3>
+                        <p><strong>вул. Гетьмана Павла Скоропадського, 14</strong><br>Суми, Сумська область, Україна</p>
+                        <p class="contact-hours">⏰ <span data-i18n="hours_val">Щодня з 08:00 до 20:00</span></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3 data-i18n="contact_phone_title">Телефон</h3>
+                        <p><a href="tel:+380507071411" class="phone-link">+380 50 707 14 11</a></p>
+                        <p class="contact-subtext" data-i18n="phone_subtext">Зв'яжіться з нами для уточнення деталей</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🌐</div>
+                        <h3 data-i18n="contact_social_title">Соціальні мережі</h3>
+                        <p><a href="https://www.instagram.com/panpekar.bakery" target="_blank" rel="noopener" class="social-link">Instagram: @panpekar.bakery</a></p>
+                        <p class="contact-subtext" data-i18n="social_subtext">Слідкуйте за нашими новинами та акціями</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo-icon">🥐</span>
+                    <span class="logo-text">Пан Пекар</span>
+                </a>
+                <p class="footer-text" data-i18n="footer_about">Сучасна пекарня-кондитерська у місті Суми.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul class="footer-list">
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Асортимент</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>📍 Покровська площа, 13, Суми</p>
+                <p>📍 вул. Гетьмана Павла Скоропадського, 14, Суми</p>
+                <p>📞 <a href="tel:+380507071411">+380 50 707 14 11</a></p>
+                <p>⏰ <span data-i18n="hours_val">Щодня з 08:00 до 20:00</span></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 «Пан Пекар». <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
