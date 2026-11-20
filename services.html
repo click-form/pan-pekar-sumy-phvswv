@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Асортимент — Пекарня-кондитерська «Пан Пекар»</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🥐</span>
+                <span class="logo-text">Пан Пекар</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="nav-link active" data-i18n="nav_services">Асортимент</a></li>
+                    <li><a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title" data-i18n="services_page_title">Наш асортимент</h1>
+                <p class="page-subtitle" data-i18n="services_page_subtitle">Свіжа випічка, хліб на заквасці, десерти та напої щодня</p>
+            </div>
+        </section>
+
+        <section class="services-section section-padding">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🌾</div>
+                        <h3 data-i18n="serv_1_title">Хліб на заквасці</h3>
+                        <p data-i18n="serv_1_desc">Вісім різних сортів хліба на заквасці, що випікається за традиційними рецептами з добірних інгредієнтів.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🥐</div>
+                        <h3 data-i18n="serv_2_title">Круасани</h3>
+                        <p data-i18n="serv_2_desc">Ароматні хрусткі круасани з різноманітними начинками: малина, шоколад, фісташка, карамель.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🍰</div>
+                        <h3 data-i18n="serv_3_title">Десерти та тарти</h3>
+                        <p data-i18n="serv_3_desc">Мусові тістечка, вишукані тарти та авторські сезонні ласощі від наших кондитерів.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🍕</div>
+                        <h3 data-i18n="serv_4_title">Піца</h3>
+                        <p data-i18n="serv_4_desc">Свіжоспечена гаряча піца для чудового перекусу під час прогулянки чи зустрічі з друзями.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">☕</div>
+                        <h3 data-i18n="serv_5_title">Кава та чай</h3>
+                        <p data-i18n="serv_5_desc">Свіжозварена кава, листовий чай та смачні гарячі напої на ваш вибір.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🍓</div>
+                        <h3 data-i18n="serv_6_title">Сезонні напої</h3>
+                        <p data-i18n="serv_6_desc">Фруктово-ягідні чаї та мікси: обліпиха-імбир, малина-журавлина, вишня з корицею.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo-icon">🥐</span>
+                    <span class="logo-text">Пан Пекар</span>
+                </a>
+                <p class="footer-text" data-i18n="footer_about">Сучасна пекарня-кондитерська у місті Суми.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul class="footer-list">
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Асортимент</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>📍 Покровська площа, 13, Суми</p>
+                <p>📍 вул. Гетьмана Павла Скоропадського, 14, Суми</p>
+                <p>📞 <a href="tel:+380507071411">+380 50 707 14 11</a></p>
+                <p>⏰ <span data-i18n="hours_val">Щодня з 08:00 до 20:00</span></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 «Пан Пекар». <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
